@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>安安后台</title>
+    </head>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background: #a8a8a7;
+            font-family: arial;
+            transition:all .9s;
+            height:100vh;
+            width:100vw;
+        }
+        .all{
+            height:90vh;
+            width:80vw;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+        header{
+            height:80vh;
+            width:80vw;
+            margin-top: 20vh;
+            padding-left: 5%;
+        }
+        .paper{
+            background: #fff;
+            position: relative;
+            height:70%;
+            width:80%;
+            border-radius: 20px;
+            padding-top:40px;
+            /*float: left;*/
+            /*box-sizing: border-box;*/
+        }
+        .black{
+            height:85%;
+            width:65%;
+            background: #393d40;
+            position: relative;
+            top:-79%;
+            left:30%;
+            border-radius: 20px;
+            z-index: -100;
+            /*float: left;*/
+        }
+        .banana{
+            /*box-sizing: border-box;*/
+            height:40%;
+            width:80%;
+            background: #ff0f1e;
+            border-radius: 20px;
+            margin: 0 auto;
+        }
+        .banana::after{
+            content: "S U N";
+            display: block;
+            color: #ffffff;
+            font-weight: bold;
+            text-align:center;
+            padding-top: 120px;
+            font-size: 100px;
+            text-shadow:1px 1px 10px #c563ff;
+        }
+        .font{
+            padding-top: 50px;
+            text-align: center;
+            font-size: 28px;
+        }
+        .write{
+            line-height: 50px;
+            text-align: center;
+        }
+        .color{
+            padding-top: 20px;
+        }
+
+
+
+
+        .ul{
+            margin: 0 auto;
+            height: 100px;
+            width: 150px;
+            position: relative;
+            top: 20px;
+        }
+        ul li{
+            float:left;
+            list-style:none;
+            height: 50px;
+            width: 50px;
+            /*border-radius:50%;*/
+        }
+        /*.color1{*/
+        /*height: 30px;*/
+        /*width: 30px;*/
+        /*background:yellow;*/
+        /*}*/
+        ul li div:nth-child(1){
+            height: 20px;
+            width: 20px;
+            background: #ffa40e;
+            border-radius:50%;
+            position: relative;
+            top: 15px;
+            left: 15px;
+        }
+        ul li:nth-child(2) div{
+            height: 20px;
+            width: 20px;
+            background: #ff0f1e;
+        }
+        ul li:nth-child(3) div{
+            height: 20px;
+            width: 20px;
+            background: #ff1de5;
+        }
+        ul li:nth-child(4) div{
+            height: 20px;
+            width: 20px;
+            background: #1410ff;
+        }
+        ul li:nth-child(5) div{
+            height: 20px;
+            width: 20px;
+            background: #27ff25;
+        }
+        ul li:nth-child(6) div{
+            height: 20px;
+            width: 20px;
+            background: #a3ff1f;
+        }
+
+
+        .j1{
+            transition:all .7s;
+            transform:scale(2);
+        }
+
+        .y1{
+            background: #ffa40e;
+
+        }
+        .y2{
+            background: #ff0f1e;
+        }
+        .y3{
+            background: #ff1de5;
+        }
+        .y4{
+            background: #1410ff;
+        }
+        .y5{
+            background: #27ff25;
+        }
+        .y6{
+            background: #a3ff1f;
+        }
+    </style>
+    <body>
+
+
+
+        <div class="all">
+            <header>
+                <div class="paper">
+                    <div class="banana">
+
+                    </div>
+                    <div class="font">
+                        <h1>孙琼瑶</h1>
+                        <div class="banana2">&nbsp;  </div>
+                        <div class="write">
+                            <!--<p>Life without a friend is death.</p>-->
+                            <p>喜欢你</p>
+                            <p>真的喜欢你</p>
+                            <p>所以很爱你</p>
+                            <p>希望看到你</p>
+                        </div>
+                        <div class="color">
+                            <h3>CoLor:</h3>
+                            <div class="ul">
+                                <ul>
+                                    <li><div class="ul1"></div></li>
+                                    <li><div class="ul2"></div></li>
+                                    <li><div class="ul3"></div></li>
+                                    <li><div class="ul4"></div></li>
+                                    <li><div class="ul5"></div></li>
+                                    <li><div class="ul6"></div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="black"></div>
+
+                <div class=""></div>
+
+
+        </header>
+    </div>
+
+
+
+
+
+
+    <script>
+
+        window.onload= function () {
+            $('.ul1').mouseover(function () {
+                $('.ul1').addClass('j1');
+            })
+            $('.ul1').mouseout(function () {
+                $('.ul1').removeClass('j1');
+            })
+
+            $('.ul2').mouseover(function () {
+                $('.ul2').addClass('j1');
+            })
+            $('.ul2').mouseout(function () {
+                $('.ul2').removeClass('j1');
+            })
+
+            $('.ul3').mouseover(function () {
+                $('.ul3').addClass('j1');
+            })
+            $('.ul3').mouseout(function () {
+                $('.ul3').removeClass('j1');
+            })
+
+            $('.ul4').mouseover(function () {
+                $('.ul4').addClass('j1');
+            })
+            $('.ul4').mouseout(function () {
+                $('.ul4').removeClass('j1');
+            })
+
+            $('.ul5').mouseover(function () {
+                $('.ul5').addClass('j1');
+            })
+            $('.ul5').mouseout(function () {
+                $('.ul5').removeClass('j1');
+            })
+
+            $('.ul6').mouseover(function () {
+                $('.ul6').addClass('j1');
+            })
+            $('.ul6').mouseout(function () {
+                $('.ul6').removeClass('j1');
+            })
+
+            $('.ul1').click(function () {
+                $('.banana').removeClass().addClass(' y1');
+            })
+
+            $('.ul2').click(function () {
+                $('.banana').removeClass().addClass('banana y2');
+            })
+
+            $('.ul3').click(function () {
+                $('.banana').removeClass().addClass('banana y3');
+            })
+
+            $('.ul4').click(function () {
+                $('.banana').removeClass().addClass('banana y4');
+            })
+
+            $('.ul5').click(function () {
+                $('.banana').removeClass().addClass('banana y5');
+            })
+
+            $('.ul6').click(function () {
+                $('.banana').removeClass().addClass('banana y6');
+            })
+
+
+
+
+
+
+
+
+
+        }
+
+    </script>
+
+
+
+
+
+    </body>
+</html>

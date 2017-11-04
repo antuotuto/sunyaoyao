@@ -1,0 +1,114 @@
+.icon {
+     width: 1em; height: 1em;
+     vertical-align: -0.15em;
+     fill: currentColor;
+     overflow: hidden;
+ }
+body{
+    background: #6e69e2;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+}
+.all{
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    background: #6e69e2;
+}
+.middle{
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    /*background: #e26a52;*/
+}
+.middle h1 {
+    position: relative;
+    display:block;
+    font-size: 50px;
+    text-align: center;
+    color: #fff0fe;
+}
+ul{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+ul li{
+    position: relative;
+    list-style:none;
+    height: 200px;
+    width: 150px;
+    float: left;
+    background:yellow;
+    border-radius:30px;
+    margin: 25px;
+}
+
+.an{
+    height: 200px;
+    width: 150px;
+}
+
+span{
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+/*ul li h3{*/
+    /*font-size: 20px;*/
+    /*position: relative;*/
+    /*top: 60px;*/
+    /*text-align: center;*/
+/*}*/
+
+
+
+
+ul li p{
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    color:black;
+    top: 80px;
+    text-align: center;
+}
+
+
+
+
+.ban,.quan{
+    clear: both;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(100, 75, 27, 0.37);
+}
+
+
+
+
+
+.anan1{
+    font-size: 60px;
+}
+.anan2{
+    font-size: 18px;
+    left: 5px;
+}
+.anan3{
+    left: 10px;
+    top: 10px;
+    box-shadow:-20px -20px 7px 0 rgba(0,0,0,.2);
+}
+

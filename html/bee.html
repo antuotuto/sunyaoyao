@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="../css/bee.css"/>
+        <style media="screen">
+        *{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #a8a8a7;
+  font-family: arial;
+  transition:all .9s;
+}
+.all{
+  height: 800px;
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+.paper{
+  height: 600px;
+  width: 400px;
+  background: #ffffff;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  border-radius:30px;
+  /*background:blueviolet;*/
+}
+.black{
+  height: 700px;
+  width: 350px;
+  background: #393d40;
+  position: absolute;
+  top: 50px;
+  left: 220px;
+  z-index: -1;
+  border-radius:30px;
+}
+.banana{
+  height: 200px;
+  width: 300px;
+  background: #ffa40e;
+  border-radius:30px;
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  transition:background-color 0.9s linear;
+}
+.banana::after{
+  content: "S U N";
+  display:block;
+  position: relative;
+  color: #ffffff;
+  font-weight:bold;
+  top: 50px;
+  text-align:center;
+  line-height: 100px;
+  font-size: 60px;
+  text-shadow:1px 1px 10px #c563ff;
+}
+.font{
+  position: relative;
+  top: 30px;
+  height: 350px;
+  width: 350px;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+.write{
+  height: 100px;
+  position: relative;
+  top: 30px;
+}
+.bannana2{
+  height: 100px;
+  width:100%;
+}
+p{
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 35px;
+  font-weight:bold;
+}
+h3{
+  position: relative;
+  top: 85px;
+  font-size: 15px;
+  text-align:center;
+}
+.ul{
+  margin: 0 auto;
+  height: 100px;
+  width: 150px;
+  position: relative;
+  top: 85px;
+}
+ul li{
+  float:left;
+  list-style:none;
+  height: 50px;
+  width: 50px;
+  /*border-radius:50%;*/
+}
+/*.color1{*/
+  /*height: 30px;*/
+  /*width: 30px;*/
+  /*background:yellow;*/
+/*}*/
+ul li div:nth-child(1){
+  height: 20px;
+  width: 20px;
+  background: #ffa40e;
+  border-radius:50%;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+ul li:nth-child(2) div{
+  height: 20px;
+  width: 20px;
+  background: #ff0f1e;
+}
+ul li:nth-child(3) div{
+  height: 20px;
+  width: 20px;
+  background: #ff1de5;
+}
+ul li:nth-child(4) div{
+  height: 20px;
+  width: 20px;
+  background: #1410ff;
+}
+ul li:nth-child(5) div{
+  height: 20px;
+  width: 20px;
+  background: #27ff25;
+}
+ul li:nth-child(6) div{
+   height: 20px;
+   width: 20px;
+   background: #a3ff1f;
+}
+
+
+.j1{
+  transition:all .7s;
+  transform:scale(2);
+}
+
+.y1{
+  background: #ffa40e;
+
+}
+.y2{
+  background: #ff0f1e;
+}
+.y3{
+  background: #ff1de5;
+}
+.y4{
+  background: #1410ff;
+}
+.y5{
+  background: #27ff25;
+}
+.y6{
+  background: #a3ff1f;
+}
+        </style>
+        <script type='text/javascript' src='../js/jquery-1.11.1.min.js'></script>
+        <script src="../js/bee.js"></script>
+
+    </head>
+    <body>
+        <div class="all">
+            <header>
+                <div class="paper">
+                    <div class="banana">
+
+                    </div>
+                    <div class="font">
+                        <h1>Favorite color</h1>
+                        <div class="banana2">&nbsp;  </div>
+                        <div class="write">
+                            <!--<p>Life without a friend is death.</p>-->
+                            <p>Yao Yao: yellow.</p>
+                            <p>An An :  yellow.</p>
+                            <p>collect: command+shift+3</p>
+                            <p>Please choose the color you like.</p>
+                        </div>
+                        <div class="color">
+                            <h3>CoLor:</h3>
+                            <div class="ul">
+                                <ul>
+                                    <li><div class="ul1"></div></li>
+                                    <li><div class="ul2"></div></li>
+                                    <li><div class="ul3"></div></li>
+                                    <li><div class="ul4"></div></li>
+                                    <li><div class="ul5"></div></li>
+                                    <li><div class="ul6"></div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="black"></div>
+
+                <div class=""></div>
+
+
+            </header>
+        </div>
+
+
+
+    </body>
+</html>
